@@ -20,7 +20,7 @@ defmodule LiveDemoWeb.PostLive.PostComponent do
           <i class="far fa-heart"></i> <%= @post.likes_count %>
         </div>
         <div class="column">
-          <i class="far fa-retweet"></i> <%= @post.reposts_count %>
+          <i class="far fa-hand-peace"></i> <%= @post.reposts_count %>
         </div>
         <div class="column post-button-column">
           <%= live_patch to: Routes.post_index_path(@socket, :edit, @post.id) do %>
