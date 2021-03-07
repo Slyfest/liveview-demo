@@ -1,4 +1,4 @@
-# Phoenix LiveDemo
+# Phoenix LiveView Demo
 
 To start your Phoenix server:
 
